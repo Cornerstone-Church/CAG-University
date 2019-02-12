@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/mission_style.css">
+    <link rel="stylesheet" href="/home/styles/home_style.css">
+    <script src="/scripts/jquery-3.3.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#header').load('../../templates/header.html');
+            $('#footer').load('../../templates/footer.html');
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- Content goes here -->
+    <section>
+        <div id="home-banner">
+            <img src="/ref/banners/school_banner.jpg">
+            <div class="text">
+                <h2>Cornerstone</h2>
+                <h1>School of Ministry</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="center">
+                <a class="button" href="#">Apply for Classes Online</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
